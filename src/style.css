@@ -1,0 +1,27 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.form input{
+    flex-grow: 1;
+}
+.btn-apagar-item{
+    color: #f00;
+    cursor: pointer
+}
+.lista{
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 10px 0;
+    padding: 0
+}
+.lista li{
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
